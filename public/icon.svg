@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="sun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bg)" stroke="#f59e0b" stroke-width="10" stroke-opacity="0.35" />
+  <!-- Mặt trời -->
+  <circle cx="256" cy="152" r="56" fill="url(#sun)" />
+  <g stroke="#fbbf24" stroke-width="12" stroke-linecap="round">
+    <line x1="256" y1="64" x2="256" y2="78" />
+    <line x1="176" y1="92" x2="188" y2="104" />
+    <line x1="336" y1="92" x2="324" y2="104" />
+    <line x1="146" y1="152" x2="162" y2="152" />
+    <line x1="366" y1="152" x2="350" y2="152" />
+  </g>
+  <!-- Giàn tấm pin mặt trời -->
+  <polygon points="124,244 388,244 432,412 80,412" fill="url(#panel)" stroke="#e2e8f0" stroke-width="12" stroke-linejoin="round" />
+  <line x1="256" y1="244" x2="256" y2="412" stroke="#bae6fd" stroke-width="6" />
+  <line x1="190" y1="244" x2="168" y2="412" stroke="#bae6fd" stroke-width="5" opacity="0.8" />
+  <line x1="322" y1="244" x2="344" y2="412" stroke="#bae6fd" stroke-width="5" opacity="0.8" />
+  <line x1="109" y1="300" x2="403" y2="300" stroke="#bae6fd" stroke-width="5" opacity="0.85" />
+  <line x1="95" y1="356" x2="417" y2="356" stroke="#bae6fd" stroke-width="5" opacity="0.85" />
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "SolarDesign Pro - Thiết Kế Điện Mặt Trời & Lưu Trữ",
+  "description": "Ứng dụng chuyên nghiệp thiết kế hệ thống điện mặt trời trên mái, bố trí và chỉnh sửa vị trí các tấm pin trực quan, cấu hình kích thước pin, máy biến tần inverter và pin lưu trữ dung lượng.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
