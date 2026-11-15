@@ -7,7 +7,7 @@ function createMainWindow() {
     height: 900,
     minWidth: 1024,
     minHeight: 680,
-    title: 'SolarDesign Pro - Thiết Kế & Mô Phỏng Điện Mặt Trời Áp Mái',
+    title: 'Đức Vinh SolarDesign - Thiết Kế & Mô Phỏng Điện Mặt Trời Áp Mái',
     backgroundColor: '#020617',
     autoHideMenuBar: true,
     webPreferences: {

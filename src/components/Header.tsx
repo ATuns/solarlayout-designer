@@ -76,7 +76,7 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="min-w-0">
           <div className="flex items-center gap-2">
             <span className="text-sm sm:text-base font-bold tracking-tight text-white whitespace-nowrap">
-              SolarDesign Pro
+              Đức Vinh SolarDesign
             </span>
             {activeProjectName && (
               <span

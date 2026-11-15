@@ -68,7 +68,7 @@ export const ExportDrawingModal: React.FC<ExportDrawingModalProps> = ({
   );
   const [customerName, setCustomerName] = useState('Chủ đầu tư: Gia đình Anh/Chị ...');
   const [projectAddress, setProjectAddress] = useState(`Khu vực lắp đặt: ${regionName}`);
-  const [designerName, setDesignerName] = useState('Đơn vị thiết kế: SolarDesign Pro');
+  const [designerName, setDesignerName] = useState('Đơn vị thiết kế: Đức Vinh SolarDesign');
   const [drawingDate, setDrawingDate] = useState(() =>
     new Date().toLocaleDateString('vi-VN')
   );
@@ -989,7 +989,7 @@ export const ExportDrawingModal: React.FC<ExportDrawingModalProps> = ({
         title: drawingTitle,
         subject: `Bản vẽ thiết kế điện mặt trời ${metrics.totalDcPowerKwp}kWp - Sản lượng ${metrics.dailyGenerationKwh}kWh/ngày`,
         author: designerName,
-        creator: 'SolarDesign Pro',
+        creator: 'Đức Vinh SolarDesign',
       });
 
       // TRANG 1: Bản vẽ kỹ thuật đầy đủ Nền Trắng - Chữ Đen độ phân giải cao

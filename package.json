@@ -1,6 +1,6 @@
 {
   "name": "solardesign-pro",
-  "productName": "SolarDesign Pro",
+  "productName": "Đức Vinh SolarDesign",
   "description": "Phần mềm thiết kế bản vẽ kỹ thuật và tính toán điện mặt trời áp mái",
   "private": true,
   "version": "1.0.0",
@@ -17,7 +17,7 @@
   },
   "build": {
     "appId": "com.cbenergy.solardesignpro",
-    "productName": "SolarDesign Pro",
+    "productName": "Đức Vinh SolarDesign",
     "directories": {
       "output": "release"
     },
@@ -48,7 +48,7 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "SolarDesign Pro"
+      "shortcutName": "Đức Vinh SolarDesign"
     }
   },
   "dependencies": {

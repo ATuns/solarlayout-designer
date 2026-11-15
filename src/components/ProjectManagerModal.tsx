@@ -290,7 +290,7 @@ export const ProjectManagerModal: React.FC<ProjectManagerModalProps> = ({
           return;
         }
 
-        showToast('error', 'File JSON không đúng định dạng dự án SolarDesign Pro.');
+        showToast('error', 'File JSON không đúng định dạng dự án Đức Vinh SolarDesign.');
       } catch {
         showToast('error', 'Không thể đọc file JSON. Vui lòng kiểm tra lại file của bạn.');
       } finally {
